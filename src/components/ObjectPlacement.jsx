@@ -34,8 +34,8 @@ const ObjectPlacement = () => {
         <Box
           visible={!vis}
           ref={hitRef}
-          args={[0.5, sizeY, sizeZ]}
-          material-color={color}
+          args={[0.5, 0.05, 0.5]}
+          material-color="white"
         />
       </>
     );
