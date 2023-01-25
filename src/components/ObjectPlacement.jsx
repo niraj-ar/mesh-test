@@ -22,6 +22,9 @@ const ObjectPlacement = () => {
         hitRef.current.quaternion,
         hitRef.current.scale
       );
+      if (hitRef.current.position.y > 0) {
+        console.log("first");
+      }
     });
 
     useInteraction(hitRef, "onSelect", onClick);
@@ -34,7 +37,7 @@ const ObjectPlacement = () => {
         <Box
           visible={!vis}
           ref={hitRef}
-          args={[0.5, 0.05, 0.5]}
+          args={[0.1, 0.01, 0.1]}
           material-color="white"
         />
       </>

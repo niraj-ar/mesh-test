@@ -13,7 +13,7 @@ export default function Model({ pos }) {
     setRotate([0, rotate[1] + Math.PI / 100, 0]);
   });
 
-  const size = 0.004;
+  const size = 0.002;
 
   return (
     <group rotation={rotate} position={pos} dispose={null}>
