@@ -1,14 +1,13 @@
-import React from 'react'
-import ObjectPlacement from './components/ObjectPlacement'
-import Rotate from './components/Rotate'
+import React from "react";
+import ObjectPlacement from "./components/ObjectPlacement";
 
 const App = () => {
   return (
     <div>
-      <ObjectPlacement/>
+      <ObjectPlacement />
       {/* <Rotate/> */}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
